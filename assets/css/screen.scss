@@ -1,0 +1,297 @@
+@import "normalize";
+@import "foundation";
+
+
+
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Lato', sans-serif;
+  
+  color:#333;
+  background-color: #F5F5F5;
+
+  
+
+} 
+ 
+#wrap{
+  width:100%;
+  text-align:left;
+  max-width:1000px;
+  background-color: #fff;
+  margin:20px auto;
+  
+
+} 
+
+header{background-color: #BF0501;
+      } 
+
+.button{background-color:#71a404;}
+
+
+/***typography***/
+
+
+
+ h2, h3, h4{font-family: 'Libre Baskerville', serif;} 
+
+  h2{color:#BF0501;} 
+
+ h5{font-family: 'Lato', sans-serif;
+color:#BF0501;}  
+
+.text{
+font-family: 'Libre Baskerville', serif;
+      font-size:1.2em;}
+
+.text_g{
+font-family: 'Lato', sans-serif;
+        color:#71a404;
+        font-size:1.5em;}
+
+
+.red {color:#BF0501;
+      font-family: 'Lato', sans-serif;
+      margin-bottom: 0;
+
+     }
+     p{margin-left:0.8rem;}
+
+
+.red_line{ border-bottom:1px solid #BF0501;}
+
+.green_line{ 
+border-bottom:3px solid #71a404;
+border-top:3px solid #71a404;
+margin:0 0 2rem 0;
+padding-top:0.5rem;}
+
+
+
+
+
+
+ /****end typo***/   
+
+#head-img{margin: 20px auto;
+          display:block;}
+
+
+
+#search{ background-color: #BF0501;
+  padding:1rem 0;
+       }
+
+.logo{
+      padding:0 2rem;
+      margin-top:0;
+      position: relative; top:-40px; left: 20px;}
+
+#feature{margin-top:4rem;}
+
+ #circles{ background:url(../images/background.png)no-repeat bottom left;}
+ a{color:#fff;}
+ a:hover{color: #BF0501;}
+
+
+
+#recipe{padding:3rem;
+background:url(../images/tomatobg.png)no-repeat bottom right;}
+
+#side{
+
+  text-align:center;
+
+
+  ul li {list-style-type: none;
+              color:#71a404;
+              font-size:1.5rem;}
+  a, a:hover{color:#71a404;}
+
+}
+
+#gallery{padding:1rem 0rem 1rem 1rem;}
+
+
+ /***image box styles***/
+
+
+.green-box{background-color:rgba(113, 164, 4, 0.25);
+padding:1rem;
+
+}
+
+.green-border{border:1px solid #71a404;
+              padding:0.5rem;
+              margin:1rem 0;}
+
+.green-ratebox{background-color:#71a404;
+        height:40px;
+        width:200px;
+        color:#fff;
+        font-size:1.2rem;
+        text-align:center;
+        padding:0.5rem;
+        }
+
+.green{background-color:#71a404;
+        height:25px;
+        width:100px;
+        color:#fff;
+        font-size:0.8rem;
+        text-align:center;
+        padding:0.3rem;
+        margin-left:0;
+       
+        }/**small view box***/
+
+
+
+     
+
+
+.thumb{border:1px solid #fff;
+        padding:0.1rem;
+        margin:1rem auto;
+        display:block;}
+
+
+figure{border: 1px solid #71a404;
+        padding:1.1rem;
+        margin: 0.3rem;}
+
+figcaption{
+            
+            padding:0.5rem 0;
+            color:#BF0501;}
+
+.slider_border{border-top:3px solid #BF0501;
+                border-bottom:3px solid #BF0501;}
+
+            
+
+
+      .oval-red {
+  width:150px;
+  height: 75px;
+  background: #BF0501;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  color:#fff;
+ text-align:center;
+padding-top:25px;
+margin:2rem auto;
+display:block;
+}
+
+
+.oval-green {
+  width:150px;
+  height: 75px;
+  background: #71a404;
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  color:#fff;
+ text-align:center;
+padding-top:25px;
+margin:2rem auto;
+display:block;
+}
+
+
+
+footer{background-color: #BF0501;
+color:#fff;
+text-align:center;}
+
+//***fontawesome styles***//
+
+
+.icons ul li{display: inline;}
+.icons li{padding: 1rem;}
+
+
+  .fa-star{color:#71a404;}
+  .fa-star-o{color:#71a404;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** styles isotope***/
+.portfolioFilter a { 
+    margin-right: 10px; 
+  color:#666;
+  text-decoration:none;
+}
+
+.portfolioFilter a.current { 
+    font-weight:bold;
+    color:#BF0501;;
+}
+
+
+
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+
+
+
+
+
+
